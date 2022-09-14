@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Shoot</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer  src="script.js"></script>
+    
+</head>
+<body>
+    <section class ="container">
+        <div class = "inside_container">
+        <!-- title -->
+        <div class = "title"> Rock   Paper   Scissor   Shoot</div>
+        <!-- player and computer score display -->
+            <div class="score">
+                <div class= "playerscore">Player score : 
+                    <span class="p_score">0</span>
+                </div>
+                <div class= "computerscore">Computer Score : 
+                    <span class ="c_score">0</span>
+                </div>
+            </div>
+
+        <div class= "turn">Number of turns:
+            <span class = "update_turn">0</span>
+        </div>
+        <div class="image_container">
+            <div class ="chosen_image_container"><img  class="img" src="rock.png"><br><h3>Player choice</h3>
+            </div>
+            <div class ="chosen_image_container"><img  class="img" src="paper.png"><br><h3>Computer choice</h3>
+            </div>
+        </div>
+        <!-- option choice for player1 -->
+        <div class="choice">
+            <button class="rock" ></button>
+            <button class="paper" ></button>
+            <button class="scissor"></button>
+            <!-- <button class="paper" ><img class="img_style" src="paper.png"><br><h3>Paper</h3></button> -->
+            <!-- <button class="scissor"><img class="img_style" src="scissor.png"><br><h3>Scissor</h3></button> -->
+        </div>
+        <div><audio>1</audio></div>
+        <!-- Final result container -->
+        <div class = "result"></div>
+        <!-- button to restart the game -->
+        <button class = "restart"><h3>Restart</h3></button>
+
+
+      </div>  
+    </section>
+</body>
+</html>
