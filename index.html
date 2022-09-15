@@ -16,11 +16,11 @@
         <div class = "title"> Rock   Paper   Scissor   Shoot</div>
         <!-- player and computer score display -->
             <div class="score">
-                <div class= "playerscore">Player score : 
-                    <span class="p_score">0</span>
+                <div class= "playerscore">Player score : 0
+                    <span class="p_score"></span>
                 </div>
-                <div class= "computerscore">Computer Score : 
-                    <span class ="c_score">0</span>
+                <div class= "computerscore">Computer Score : 0
+                    <span class ="c_score"></span>
                 </div>
             </div>
 
@@ -28,11 +28,13 @@
             <span class = "update_turn">0</span>
         </div>
         <div class="image_container">
-            <div class ="chosen_image_container"><img  class="img" src="rock.png"><br><h3>Player choice</h3>
+            <div class ="chosen_image_container"><img src=" " class="img"><br><h3>Player choice</h3>
             </div>
-            <div class ="chosen_image_container"><img  class="img" src="paper.png"><br><h3>Computer choice</h3>
+            <div class ="chosen_image_container"><img src=" " class="img"><br><h3>Computer choice</h3>
             </div>
+           
         </div>
+        <div class = "result"></div>
         <!-- option choice for player1 -->
         <div class="choice">
             <button class="rock" ></button>
@@ -43,7 +45,7 @@
         </div>
         <div><audio>1</audio></div>
         <!-- Final result container -->
-        <div class = "result"></div>
+    
         <!-- button to restart the game -->
         <button class = "restart"><h3>Restart</h3></button>
 
