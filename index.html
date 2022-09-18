@@ -10,22 +10,30 @@
     
 </head>
 <body>
+    
+   
     <section class ="container">
+        <!-- <header class ="gamerule"><h3><gameRules</h3>
+            <p>1. Rock crush Scissor  2. Scissor cut paper  3. paper cover rock <br>
+            If player and computer pick same ,then is's a tie </p>
+           
+            
+           </header>  -->
         <div class = "inside_container">
         <!-- title -->
         <div class = "title"> Rock   Paper   Scissor   Shoot</div>
         <!-- player and computer score display -->
             <div class="score">
-                <div class= "playerscore">Player score : 0
+                <div class= "playerscore"><img src="player.png"  class="img_style"><h3>Player score </h3>
                     <span class="p_score"></span>
                 </div>
-                <div class= "computerscore">Computer Score : 0
+                <div class= "computerscore"><img src="computer.png"  class="img_style" ><h3>Computer Score </h3>
                     <span class ="c_score"></span>
                 </div>
             </div>
 
-        <div class= "turn">Number of turns:
-            <span class = "update_turn">0</span>
+        <div class= "turn">
+            <span class = "update_turn"><h3>Number of turns</h3></span>
         </div>
         <div class="image_container">
             <div class ="chosen_image_container"><img src=" " class="img"><br><h3>Player choice</h3>
@@ -37,9 +45,9 @@
         <div class = "result"></div>
         <!-- option choice for player1 -->
         <div class="choice">
-            <button class="rock" ></button>
-            <button class="paper" ></button>
-            <button class="scissor"></button>
+            <button class="rock" ><h3>Rock</h3></button>
+            <button class="paper" ><h3>Paper</h3></button>
+            <button class="scissor"><h3>Scissor</h3></button>
             <!-- <button class="paper" ><img class="img_style" src="paper.png"><br><h3>Paper</h3></button> -->
             <!-- <button class="scissor"><img class="img_style" src="scissor.png"><br><h3>Scissor</h3></button> -->
         </div>
@@ -47,9 +55,10 @@
         <!-- Final result container -->
     
         <!-- button to restart the game -->
-        <button class = "restart"><h3>Restart</h3></button>
-
-
+        <div class = last>
+            <button class = "restart"><h3>Restart</h3></button>
+            <button class = "endgame"><h3>End Game</h3></button>
+       </div>
       </div>  
     </section>
 </body>
