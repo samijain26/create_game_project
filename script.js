@@ -78,9 +78,9 @@ function playGame() {
     let playerChoice = [rockbtn, paperbtn, scissorbtn];
 
     //set html text and image on each button using object
-    playerChoice[0].innerHTML = `<img src="${rock.img}" class="img_style"><h4>${rock.name}<h4>`;
-    playerChoice[1].innerHTML = `<img src="${paper.img}" class="img_style"><h4>${paper.name}<h4>`;
-    playerChoice[2].innerHTML = `<img src="${scissor.img}" class="img_style"><h4>${scissor.name}<h4>`;
+   // playerChoice[0].innerHTML = `<img src="${rock.img}" class="img_style"><h4>${rock.name}<h4>`;
+   // playerChoice[1].innerHTML = `<img src="${paper.img}" class="img_style"><h4>${paper.name}<h4>`;
+   // playerChoice[2].innerHTML = `<img src="${scissor.img}" class="img_style"><h4>${scissor.name}<h4>`;
 
     //getting  option to show the image for picked user and computer choice
    

@@ -269,9 +269,7 @@ box-shadow: 0 5px #666;
     border-radius: 20px;
     width:100px;
     height:50px;
-    box-shadow: 5em;
-    margin:6px;
-    padding:auto;
+   
     justify-content:center;
     align-items: center;
     box-shadow: 0 4px rgb(200, 137, 137);
@@ -279,6 +277,7 @@ box-shadow: 0 5px #666;
 }
 .last{
     display: flex;
+  
     justify-content: center;
     align-items: center;
 }
