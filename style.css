@@ -277,7 +277,7 @@ box-shadow: 0 5px #666;
 }
 .last{
     display: flex;
-  
+ 
     justify-content: center;
     align-items: center;
 }
@@ -296,20 +296,31 @@ box-shadow: 0 5px #666;
 @media screen and (max-width: 640px)
 { 
     .title{
+       
         text-align: center;
     }
     .score{
        
        
-        width:50vw;
+        width:60vw;
+       
     }
     .choice{
-        width:50vw;
+        width:60vw;
+       
+    }
+    .turn{
+        width:60vw;
+        height:15vh;
+     
     }
   .result{
-    width: 50vw;
+    width: 60vw;
+    
   }
 .rock,.paper,.scissor{
-    width:50vw;
+    width:60vw;
+    height:15vh;
 }
+
 }

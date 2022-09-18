@@ -1,19 +1,34 @@
 //main function which has all the funtionality of the game
 function playGame() {
-  let counter = 0;
-  if (counter === 0) {
-    confirm(
-      "Hi let's play Rock Paper Scissor Shoot to decide who would eat last slice of Pizza" +
-        "Remeber: Rock crush scissor, paper cover rock and scissor cut paper" +
-        "If you want to learn more about game rules:  Go to 'wrpsa.coma'"
+  
+  
+    alert(
+      "Hi let's play Rock Paper Scissor Shoot to decide who is more smarter between you and computer. " +
+        "it's a luck game and whoever wins the most turn would be rewarded " +
+         " with smartest medal. let me tell you all the game rule before proceed " +
+         "RULE:  1.Rock crush scissor    2. paper cover rock   3.  scissor cut paper" +
+        " if both player earns same point then it is a TIE game. " +
+        " If you want to learn more about game rules:  Go to: 'wrpsa.com' "
     );
-    counter++;
-  }
+   
+ 
 
   let playerOBj = {
     type: "human",
     
   };
+
+  //alert to get player name and save as name propety of the player object
+  let playerName = prompt(
+    "please enter your name to play against computer",
+    "Sami"
+  );
+
+  if (playerName != " ") {
+    playerOBj.name = playerName;
+  }
+
+  console.log(`welcome ${playerOBj.name}`);
 
   //class to crete three button
   class Button {
@@ -29,17 +44,7 @@ function playGame() {
 
   //let container = document.querySelector(".inside_container");
  
- //alert to get player name and save as name propety of the player object
-  let playerName = prompt(
-    "please enter your name to play against computer",
-    "Sami"
-  );
-
-  if (playerName != " ") {
-    playerOBj.name = playerName;
-  }
-
-  console.log(`welcome ${playerOBj.name}`);
+ 
 
   //prompting user to enter how many times he/she wants to play to decide the winner. If user enter a
   //number, program continues
@@ -79,8 +84,8 @@ function playGame() {
 
     //set html text and image on each button using object
    // playerChoice[0].innerHTML = `<img src="${rock.img}" class="img_style"><h4>${rock.name}<h4>`;
-   // playerChoice[1].innerHTML = `<img src="${paper.img}" class="img_style"><h4>${paper.name}<h4>`;
-   // playerChoice[2].innerHTML = `<img src="${scissor.img}" class="img_style"><h4>${scissor.name}<h4>`;
+    // playerChoice[1].innerHTML = `<img src="${paper.img}" class="img_style"><h4>${paper.name}<h4>`;
+    // playerChoice[2].innerHTML = `<img src="${scissor.img}" class="img_style"><h4>${scissor.name}<h4>`;
 
     //getting  option to show the image for picked user and computer choice
    
@@ -200,7 +205,7 @@ function play() {
 
     //function to decide who won each turn on click
     function computerwinStats(result, computerScoreUpdate) {
-      result.innerHTML = `<img src="computer.png"  class="img_style" ><h2> Computer won this turn</h2>`;
+      result.innerHTML = `<img src="computer.png"  class="img_style" ><h2> Computer won this turn.</h2>`;
       computerScore++;
       computerScoreUpdate.style.display = "flex";
       computerScoreUpdate.innerHTML = `<h4> :${computerScore}</h4>`;
