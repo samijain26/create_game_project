@@ -1,7 +1,10 @@
 # create_game_project
 Rock, Paper and Scissor Game using HTML, CSS and JAVASCRIPT
 
-Introduction: During PerScholas admission process, I was given Rock Paper Scissor as a coding challenge question to  Psedocode. At that moment I did not about this game so I went through all the rules of the game which was provided as a link and then with in time frame limit I came up with my Psedocode. I was always tempted to code my algorithm so when creating the game  as project oppotunity came ,I was really excited and selected Rock Paper Scissor as my project.
+<img width="493" alt="Screen Shot 2022-09-18 at 7 25 40 PM" src="https://user-images.githubusercontent.com/110350498/190933160-fff8fcc3-3314-485c-9afc-c5665e15dea2.png">
+
+Introduction: During PerScholas admission process, I was given Rock Paper Scissor as a coding challenge question to  Psedocode. At that moment I did not about this game so I went through all the rules of the game which was provided as a link and then with in time frame limit I came up with my Psedocode. I was always tempted to code my algorithm so when creating the game  as project oppotunity came ,I was really excited and selected Rock Paper Scissor as my project. you can access my game on the github by
+clicking the link:  https://samijain26.github.io/create_game_project/
 
 About the game: This game need two players. Both the players have to pick  rock, paper, or scissors as a choice. Then User decide how many turns they want to play. Whoever wins the most turn is the winner.
 Game Rule: 1. Rock crush scissor
