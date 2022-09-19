@@ -3,12 +3,13 @@ function playGame() {
   
   
     alert(
-      "Hi let's play Rock Paper Scissor Shoot to decide who is more smarter between you and computer. " +
-        "it's a luck game and whoever wins the most turn would be rewarded " +
-         " with smartest medal. let me tell you all the game rule before proceed " +
-         "RULE:  1.Rock crush scissor    2. paper cover rock   3.  scissor cut paper" +
-        " if both player earns same point then it is a TIE game. " +
-        " If you want to learn more about game rules:  Go to: 'wrpsa.com' "
+      "Hi, let's play Rock Paper Scissor Shoot between you and computer. " +
+        "Whoever wins the most turn would be rewarded " +
+         " as a smarter brain. let me tell you all the game rule before proceed \n" +
+         "RULES: \n 1. Rock crush scissor \n "+
+         "2. Paper cover rock  \n 3. scissor cut paper \n  "+
+        " if both player earns same point then it is a TIE game.\n To learn more Go to: 'wrpsa.com'" 
+       
     );
    
  
@@ -75,10 +76,17 @@ function playGame() {
     let paperbtn = document.querySelector(".paper");
     let scissorbtn = document.querySelector(".scissor");
 
+    rock = rockbtn.textContent
+    paper = paperbtn.textContent
+    scissor = scissorbtn.textContent
+
     let imageContainer = document.querySelector(".image_container");
     let icontainer = document.querySelector(".inside_container");
-    console.dir(imageContainer);
-    // }
+
+    let player_score = document.querySelector("h3");
+    player_score.innerHTML=`${ playerOBj.name} Score`
+    
+   
 
     let playerChoice = [rockbtn, paperbtn, scissorbtn];
 

@@ -36,7 +36,7 @@
 .inside_container{
    
     display: flex;
-    height: 100vh;
+    height: 98vh;
     justify-content: space-around;
    align-items: center;
    width: 80vw;
@@ -116,7 +116,7 @@ background-color: rgb(37, 168, 175);
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height:13vh;
+    height:10vh;
     width:50vw;
     font-size: 1rem;
     color:black;
@@ -253,7 +253,7 @@ box-shadow: 0 5px #666;
     border-radius: 20px;
     width:100px;
     height:50px;
-    box-shadow: 5em;
+    
     margin:6px;
     padding:auto;
     justify-content:center;
@@ -286,9 +286,9 @@ box-shadow: 0 5px #666;
     justify-content: center;
     align-items: center;
     width: 50vw;
-   height:15vh;
+   height:17vh;
     background-color: rgb(49, 207, 168);
-    /* font-size: 1.2rem; */
+    font-size: 1rem;
     border-radius: 40px;
     box-shadow: 0 4px rgb(200, 137, 137);
 
