@@ -31,20 +31,9 @@ function playGame() {
 
   console.log(`welcome ${playerOBj.name}`);
 
-  //class to crete three button
-  class Button {
-    constructor(name, img) {
-      this.name = name;
-      this.img = img;
-    }
-  }
+  
 
-  let rock = new Button("Rock", "/rock.png");
-  let paper = new Button("Paper", "/paper.png");
-  let scissor = new Button("Scissor", "/scissor.png");
-
-  //let container = document.querySelector(".inside_container");
- 
+  
  
 
   //prompting user to enter how many times he/she wants to play to decide the winner. If user enter a
@@ -76,9 +65,7 @@ function playGame() {
     let paperbtn = document.querySelector(".paper");
     let scissorbtn = document.querySelector(".scissor");
 
-    rock = rockbtn.textContent
-    paper = paperbtn.textContent
-    scissor = scissorbtn.textContent
+    
 
     let imageContainer = document.querySelector(".image_container");
     let icontainer = document.querySelector(".inside_container");
@@ -90,11 +77,7 @@ function playGame() {
 
     let playerChoice = [rockbtn, paperbtn, scissorbtn];
 
-    //set html text and image on each button using object
-   // playerChoice[0].innerHTML = `<img src="${rock.img}" class="img_style"><h4>${rock.name}<h4>`;
-    // playerChoice[1].innerHTML = `<img src="${paper.img}" class="img_style"><h4>${paper.name}<h4>`;
-    // playerChoice[2].innerHTML = `<img src="${scissor.img}" class="img_style"><h4>${scissor.name}<h4>`;
-
+    
     //getting  option to show the image for picked user and computer choice
    
     function getImageSrc(option) {
