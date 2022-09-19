@@ -162,6 +162,7 @@ if (player === computer) {
       return playerScore, computerScore;
     }
 
+<img width="601" alt="Screen Shot 2022-09-18 at 7 26 12 PM" src="https://user-images.githubusercontent.com/110350498/190935549-ffbe2a96-77d1-4e31-8189-6de109207efe.png">
 ***************************************************************
 After each turn turn count is checked to see if all the turns are finished. If so then gameOver() function is called to calculate the final winner.This function checks if game tie or there is win/lose state.
 
@@ -214,6 +215,7 @@ EndGame button ends the game and shows default browser
         icontainer.style.display = "none";
       });
     }
+<img width="579" alt="Screen Shot 2022-09-18 at 7 26 36 PM" src="https://user-images.githubusercontent.com/110350498/190935739-2fbaea2e-91f4-4a9e-9baa-6c4cb610fc4c.png">
 
 
 ****************************************************************************
